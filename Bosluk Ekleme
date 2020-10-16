@@ -1,0 +1,2 @@
+#Arastırınca onerilerde sonuc verdigini gordum
+print("Algoritma","ve","Bilgisayar Programlama", sep="\n")
