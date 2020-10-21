@@ -1,0 +1,8 @@
+#Henuz hicbir sonuc vermeyen denemeler
+
+for i in range(1000,10000):
+
+
+    if i[0]>i[3]:
+
+    print("İlk rakamı son rakamından büyük 4 basamaklı şu kadar sayı vardır:",
