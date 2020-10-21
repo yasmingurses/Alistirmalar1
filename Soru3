@@ -1,0 +1,6 @@
+e = 0
+fac=1
+for i in range(0,1000):
+	fac= fac*(i+1)
+	e= e+ (1/fac)
+print("Value of e:", e+1)
