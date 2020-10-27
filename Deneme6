@@ -1,8 +1,6 @@
-#Henuz hicbir sonuc vermeyen denemeler
-
+    sayac=0
 for i in range(1000,10000):
-
-
-    if i[0]>i[3]:
-
-    print("İlk rakamı son rakamından büyük 4 basamaklı şu kadar sayı vardır:",
+    i=str(i)
+    if i[0] > i[3]:
+        sayac += 1
+print("İlk rakamı son rakamından büyük 4 basamaklı şu kadar sayı vardır:",count)
