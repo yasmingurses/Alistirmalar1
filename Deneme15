@@ -1,0 +1,8 @@
+#Sürekli 1000 basıyor tekrar dene
+for i in range(10000 , 100000) :
+    sayac = 0
+    for x in range(2,i):
+        if( i % x == 0):
+            sayac += 1
+        else :
+            print(i)
