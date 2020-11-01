@@ -1,6 +1,5 @@
-say=0
 for i in range(1000,10000):
     say=str(i)
-    if say[1]== say[4] and say[2]==say[3]:
-	    say=say
+    if say[0]== say[3] and say[2]==say[1]:
+	    
         print(say)
