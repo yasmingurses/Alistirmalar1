@@ -1,0 +1,18 @@
+sayac=0
+for i in range(100,1000):
+    
+    i % 2 == 0 
+        
+    i=str(i)
+    
+    if i[0] == i[1] :
+        sayac += 1
+    elif  i[0] == i[2] :
+        sayac += 1
+    elif  i[1] == i[2] :
+        sayac += 1
+    elif  i[0] == i[1] == i[2] :
+        sayac += 1
+
+        
+print("3 rakamlı çift sayılar arasında en az 2 rakamı aynı olan şu kadar sayı vardır:", sayac)
