@@ -1,6 +1,6 @@
-say = 0
 for i in range(100,1000):
-    say = str(i)
-if say[0]== say[2]:
-    print(say)
+    say=str(i)
+    if say[0]== say[2]:
+	    
+        print(say)
    
