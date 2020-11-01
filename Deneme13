@@ -1,0 +1,9 @@
+#Cevap olarak hiçbir şey çıkmıyor tekrar dene
+
+for a in range(10,100) :
+    for b in range(10,100) :
+        
+        if "str(a),str(b)" == ( 11 * (int(a) + int(b) ) ):
+
+            print("Bir sayı şudur:" , a )
+            print("Bir sayı şudur:" , b )
